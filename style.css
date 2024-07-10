@@ -234,67 +234,58 @@ main{
     border-bottom: 1px solid black;
     padding-top: 24px ;
 }
-
-
-
 /* I Need Support section start here */
-.support-container {
-    max-width: 880px;
-    height: 200px;
-    margin: 0 auto;
-    margin-top: 49px;
-    margin-bottom: 80px;
-    padding: 64px 48px;
-    border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
-
+.support_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
 }
-
-.support-section-img {
-    background: url('images/handshake.jpg');
-    background-size: 100% 100%;
+.support_section_containet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(images/handshake.jpg);
+    width: 1140px;
+    height: 313px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     padding: 64px 48px 64px 48px;
-    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    border-radius: 16px;
+    
 }
-
-.support-container h2 {
+.support_section_containet > h2 {
     font-size: 32px;
     font-family: Azeret Mono;
     font-weight: 800;
     color: #fff;
     margin-bottom: 16px;
 }
-
-.support-container p {
+.support_section_containet > p {
     font-size: 16px;
     font-family: Azeret Mono;
     font-weight: 400;
     color: #fff;
     margin-bottom: 32px;
 }
-
 .support-form {
     display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
-
 .support-input {
+    width: 550px;
     height: 23px;
     padding: 12px;
-    width: 70%;
     border: none;
     border-radius: 8px;
     margin-right: 10px;
 
 }
-
 .support-button {
     padding: 12px 24px;
     border: none;
@@ -307,18 +298,13 @@ main{
     font-weight: 600;
 }
 
-.support-button:hover {
-    background-color: #12da3d;
-}
+/* I Need Support section end */
 
-/* I Need Support section end here */
-
-/* Footer section start here */
+/* Footer section start*/
 .footer {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03)
 }
-
 .footer-container {
     max-width: 946px;
     margin: 0 auto;
@@ -327,7 +313,6 @@ main{
     align-items: center;
     padding: 32px 150px 32px 150px;
 }
-
 .footer p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -335,18 +320,15 @@ main{
     font-weight: 600;
     margin: 0;
 }
-
 .social-icons {
     display: flex;
     gap: 10px;
 }
-
 .social-icon {
     width: 24px;
     height: 24px;
 }
-
-/* Footer section end here */
+/* Footer section end */
 
 
 
