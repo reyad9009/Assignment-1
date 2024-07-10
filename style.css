@@ -5,6 +5,9 @@
     padding: 0;
     font-family: "Azeret Mono", monospace;
 }
+body{
+    height: 1000rem;
+}
 /************** header **************/
 header{
    width: 100%;
@@ -39,6 +42,7 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
+
    
 }
 
@@ -112,7 +116,7 @@ main{
     line-height: 26px;
     margin-top: 20px;
 }
-.s2_information_box{
+.s2_Containers{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -174,6 +178,65 @@ main{
     line-height: 26px;
     margin-top: 20px;
 }
+
+
+
+.section_4{
+    display: flex;
+    justify-content: center;
+}
+.s4_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 150px;
+}
+.s4_header_text{
+    text-align: center;
+    width: 850px;
+
+}
+.s4_header_text > h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.s4_header_text > p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.s4_Containers{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+}
+.s4_element{
+    width: 284px;
+    margin: 40px;
+}
+.s4_element > h1{
+   font-size: 24px;
+   font-weight: bolder;
+   padding-top: 24px ;
+}
+.s4_element > p{
+    font-size: 16px;
+    padding-top: 24px;
+    color: #555963;
+}
+.s4_element > button{
+    font-size: 16px;
+    font-weight: bolder;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom: 1px solid black;
+    padding-top: 24px ;
+}
+
 
 
 
