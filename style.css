@@ -41,12 +41,14 @@ main{
     flex-direction: column;
    
 }
-.section1{
+
+
+.section_1{
     background-image: url(images/Hero-bg.png);
     width:100%;
     height: 652px;
 }
-.section2{
+.s1_content{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -56,12 +58,12 @@ main{
     gap: 32px;  
     margin-top: 20px;
 }
-.section2 > img{
+.s1_content > img{
     width: 240px;
     height: 240px;
 
 }
-.section2 > h1{
+.s1_content > h1{
     width: 998px;
   
     font-size: 48px;
@@ -69,13 +71,13 @@ main{
     color: #0D1321;
     line-height: 68px;
 }
-.section2 > p{
+.s1_content > p{
     width: 852px;
     font-size: 16px;
     color: #0D1321;
     line-height: 26px;
 }
-.section2 > button{
+.s1_content > button{
     background-color: #0D1321;
     color: #FFFFFF;
     padding: 21px 24px 21px 24px;
@@ -83,11 +85,12 @@ main{
     font-size: 20px;
 }
 
-.msecctio3{
+/*++++++++++++++++++++++++++++++++++++++++++++++*/
+.section_2{
     display: flex;
     justify-content: center;
 }
-.section3{
+.s2_content{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,20 +99,20 @@ main{
     margin-top: 150px;
     width: 850px;
 }
-.s3{
+.s2_header_text{
     text-align: center;
 
 }
-.s3 > h1{
+.s2_header_text > h1{
     font-size: 32px;
     font-weight: bolder;
 }
-.s3 > p{
+.s2_header_text > p{
     font-size: 16px;
     line-height: 26px;
     margin-top: 20px;
 }
-.s3_2{
+.s2_information_box{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -117,30 +120,59 @@ main{
     justify-content: space-between;
     margin: 48px 0px 48px 0px;
 }
-.s3_2_1{
+.s2_sideText{
     width: 420px;
    
    
 }
-.s3_2_1 > h2{
+.s2_sideText > h2{
     font-size: 24px;
     line-height: 36px;
     color: #555963;
   
 }
-.s3_2_1 > p{
+.s2_sideText > p{
     font-size: 16px;
     line-height: 26px;
     margin-top: 20px;
     color: #555963;
   
 }
-.s3_2_1 > button{
+.s2_sideText > button{
     font-size: 20px;
     padding: 12px 20px 12px 20px;
     margin-top: 32px;
     color: #555963;
     border: 1px solid #555963;
+}
+
+
+
+.section_3{
+    display: flex;
+    justify-content: center;
+}
+.s3_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 150px;
+    width: 850px;
+}
+.s3_header_text{
+    text-align: center;
+
+}
+.s3_header_text > h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.s3_header_text > p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
 }
 
 
